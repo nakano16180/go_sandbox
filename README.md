@@ -1,6 +1,5 @@
 ## Go sandbox
 
 ### やったこと
-- 前回の続き。VSCode立ち上げると、コンテナ内で再度フォルダを開くかという通知が出る。
-- コンテナ内で開くとそこで開発ができる。
-- git コマンドもコンテナ内で使えるっぽい
+- [Using Images, Dockerfiles, and Docker Compose](https://containers.dev/guide/dockerfile)
+- [DevcontainerでメインコンテナからMySQLコンテナにアクセス](https://zenn.dev/myonie/articles/ad01fa5d8eddf8)
