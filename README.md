@@ -1,6 +1,9 @@
 ## Go sandbox
 
 ### やったこと
-- 前回の続き。VSCode立ち上げると、コンテナ内で再度フォルダを開くかという通知が出る。
-- コンテナ内で開くとそこで開発ができる。
-- git コマンドもコンテナ内で使えるっぽい
+- devcontainer cli入れた
+  - [devcontainers/cli: A reference implementation for the specification that can create and configure a dev container from a devcontainer.json.](https://github.com/devcontainers/cli)
+- atlasをさわってみた
+  - [Go製DBスキーマ管理ツールのAtlasを触ってみた](https://zenn.dev/katonium/articles/atlas-rakuraku-migration)
+  - [Go製モダンマイグレーションツールのAtlasを使用してみた](https://zenn.dev/jy8752/articles/f9fda2379b57f5)
+- goコンテナにatlasのインストールを追加
