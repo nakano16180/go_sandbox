@@ -20,4 +20,7 @@ atlas schema diff --from mysql://root:password@127.0.0.1:3306/some_db --to "file
 atlas schema apply -u "mysql://root:password@127.0.0.1:3306/some_db" --to "file://schema.sql" --dev-url "docker://mysql/8/some_db"
 ```
 
+もしくは下記コマンド
+```
 atlas schema apply -u "mysql://root:password@127.0.0.1:3306/some_db" --to "file://db/migrations" --dev-url "docker://mysql/8/some_db"
+```
