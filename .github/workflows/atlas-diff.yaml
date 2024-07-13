@@ -4,11 +4,8 @@ on:
   # change this to your root branch.
   push:
     branches:
-      - master
-  # Run on PRs where something changed under the `migrations/` directory.
-  pull_request:
-    paths:
-      - "schema.sql"
+      - 'intro/**'
+      - 'feature/**'
 jobs:
   lint:
     services:
